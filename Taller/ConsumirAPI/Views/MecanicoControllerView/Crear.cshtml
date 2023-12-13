@@ -1,0 +1,14 @@
+﻿@model ConsumirAPI.Models.MecanicoViewModel
+
+<h1>Crear Mecánico</h1>
+
+<form asp-action="AgregarMecanico">
+    <div class="mb-3">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" required>
+    </div>
+    <!-- Agrega campos adicionales según tus necesidades -->
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
